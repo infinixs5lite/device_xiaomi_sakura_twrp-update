@@ -81,6 +81,7 @@ BOARD_HAS_LARGE_FILESYSTEM := true
 TARGET_RECOVERY_PIXEL_FORMAT := "RGBX_8888"
 TARGET_USERIMAGES_USE_EXT4 := true
 TARGET_USERIMAGES_USE_F2FS := true
+BOARD_USES_RECOVERY_AS_BOOT := false
 
 # System As Root
 BOARD_BUILD_SYSTEM_ROOT_IMAGE := true
@@ -105,5 +106,10 @@ TW_HAS_EDL_MODE := true
 TW_Y_OFFSET := 80
 TW_H_OFFSET := -80
 TW_DEVICE_VERSION := NINO CHINEDU
+
+# Recovery Installer
+USE_RECOVERY_INSTALLER := true
+RECOVERY_INSTALLER_PATH := $(LOCAL_PATH)/installer
+
 # Workaround for error copying vendor files to recovery ramdisk
 TARGET_COPY_OUT_VENDOR := system/vendor
