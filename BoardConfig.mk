@@ -104,6 +104,6 @@ TW_INCLUDE_REPACKTOOLS := true
 TW_HAS_EDL_MODE := true
 TW_Y_OFFSET := 80
 TW_H_OFFSET := -80
-
+TW_DEVICE_VERSION := NINO CHINEDU
 # Workaround for error copying vendor files to recovery ramdisk
 TARGET_COPY_OUT_VENDOR := system/vendor
