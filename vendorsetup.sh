@@ -76,10 +76,5 @@ if [ "$1" = "$FDEVICE" -o "$FOX_BUILD_DEVICE" = "$FDEVICE" ]; then
 	# run a process after formatting data to work-around MTP issues
 	export OF_RUN_POST_FORMAT_PROCESS=1
 
-	# A/B
-   	export OF_AB_DEVICE=0
-   	export TARGET_DEVICE_ALT="daisy_sprout"
-	export OF_TARGET_DEVICES="daisy_sprout,daisy"
-	export FOX_RESET_SETTINGS="disabled"
 fi
 #
